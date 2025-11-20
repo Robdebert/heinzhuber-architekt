@@ -535,6 +535,10 @@ h2 {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
+    
+    .gallery-item.separatorTile {
+        font-size: 11px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -559,6 +563,7 @@ h2 {
         flex-direction: column;
         gap: 0.5rem;
     }
+
     
     .main-nav a {
         font-size: 0.8rem;
@@ -579,6 +584,13 @@ h2 {
     
     .placeholder-image {
         font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) and (orientation: portrait) {
+    .main-nav {
+        gap: 0.0rem;
+        display: none;
     }
 }
 
